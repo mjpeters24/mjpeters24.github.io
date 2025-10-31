@@ -20,7 +20,7 @@ a.one  {
 }
 
 h2, h5 {
-  padding: 20px;
+  padding: 20px 20px 10px;
 }
 h3, h4 {
   font-weight: bold;
@@ -28,7 +28,8 @@ h3, h4 {
 }
 
 p {
-  padding: 4px;
+  padding: 6px;
+  margin-right: 460px;
 }
 nav ul {
   list-style-type: none;
