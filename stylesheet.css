@@ -6,15 +6,30 @@ body {
   padding: 0;
 }
 
-/* Header styling */
 header {
   background-color: #2a4d69;
   color: white;
   padding: 20px;
   text-align: center;
+  
 }
 
-/* Navigation bar */
+a.one  {
+  color: white;
+  font-weight: bold;
+}
+
+h2, h5 {
+  padding: 20px;
+}
+h3, h4 {
+  font-weight: bold;
+  padding: 20px;
+}
+
+p {
+  padding: 4px;
+}
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -37,7 +52,11 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Main content */
+img {
+  margin-left: 12px;
+  border-radius: 10px;
+}
+
 main {
   background-color: white;
   padding: 20px;
@@ -45,10 +64,8 @@ main {
   width: 80%;
   max-width: 900px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-/* Footer */
 footer {
   background-color: #2a4d69;
   color: white;
