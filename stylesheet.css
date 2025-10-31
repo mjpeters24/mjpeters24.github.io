@@ -19,6 +19,18 @@ a.one  {
   font-weight: bold;
 }
 
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 h2, h5 {
   padding: 20px 20px 10px;
 }
@@ -26,11 +38,20 @@ h3, h4 {
   font-weight: bold;
   padding: 20px;
 }
-
+.two {
+  padding: 6px;
+  text-align: center;
+  
+}
+h6 {
+  font-weight:lighter;
+  font-size:large;
+}
 p {
   padding: 6px;
   margin-right: 460px;
 }
+
 nav ul {
   list-style-type: none;
   margin: 0;
