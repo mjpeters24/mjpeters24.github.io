@@ -1,1 +1,32 @@
-/* Your CSS goes here! */
+body {
+    font-family: "Georgia", serif;
+    background-color: #faf6e4;
+    color: #333;
+    margin: 0%;
+    padding: 2%;
+    text-align: center;
+
+}
+
+h1 {
+    font: bold;
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+p {
+    font-size: 1em;
+}
+ul{
+    list-style-position: inside;
+}
+nav{
+    font:bold;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.4em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
